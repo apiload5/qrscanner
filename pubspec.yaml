@@ -1,0 +1,53 @@
+
+  #   -name: qr_scanner_app
+description: QR Code Scanner App - Scan QR codes offline
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # QR Scanner
+  mobile_scanner: ^5.0.0
+  
+  # Image Picker
+  image_picker: ^1.0.7
+  
+  # File picker for gallery
+  file_picker: ^8.0.0
+  
+  # URL Launcher
+  url_launcher: ^6.2.5
+  
+  # Clipboard
+  flutter_native_clipboard: ^2.0.0
+  
+  # Icons
+  cupertino_icons: ^1.0.6
+  
+  # Share
+  share_plus: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/ family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
